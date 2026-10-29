@@ -24,7 +24,7 @@ Works on macOS, Linux, and Windows.
 ## Install
 
 ```bash
-npx skills add OWNER/disk-cleanup-skill
+npx skills add sasugadayo/disk-cleanup-skill
 ```
 
 Then ask your agent: "my disk is full" / "free up some space" / "clean up Docker".
@@ -35,3 +35,7 @@ Then ask your agent: "my disk is full" / "free up some space" / "clean up Docker
 bash skills/disk-cleanup/scripts/survey.sh                         # macOS / Linux
 powershell -ExecutionPolicy Bypass -File skills\disk-cleanup\scripts\survey.ps1   # Windows
 ```
+
+## License
+
+MIT
